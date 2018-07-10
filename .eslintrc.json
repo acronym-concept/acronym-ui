@@ -1,0 +1,32 @@
+{
+    "extends": [
+        "airbnb",
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:jsx-a11y/recommended"
+    ],
+    "env": {
+        "es6": true,
+        "commonjs": true
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true,
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "jsx-a11y",
+        "import"
+    ],
+    "rules": {
+        "quotes": ["warn", "single"],
+        "semi": "warn",
+        "no-console": "off",
+        "react/forbid-prop-types": "off",
+        "no-undef": "warn",
+        "comma-dangle": ["warn", "always"]
+    }
+}
