@@ -27,6 +27,6 @@
         "no-console": "off",
         "react/forbid-prop-types": "off",
         "no-undef": "warn",
-        "comma-dangle": ["warn", "always"]
+        "comma-dangle": ["warn", "always-multiline"]
     }
 }
