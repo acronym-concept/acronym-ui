@@ -9,6 +9,23 @@ const App = () => (
       </a>
     </div>
 
+    <div className="selector">
+      <ul id="select">
+
+        <li>
+          <a href="/">
+            img
+          </a>
+        </li>
+
+        <li>
+          <a href="/">
+            text
+          </a>
+        </li>
+      </ul>
+    </div>
+
     <div className="nav__links">
       <ul id="links">
 
