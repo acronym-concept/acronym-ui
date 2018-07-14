@@ -5,6 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import config from './config';
+import './index.css';
 
 // --- in development --- //
 Amplify.configure({

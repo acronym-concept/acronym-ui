@@ -1,0 +1,50 @@
+.nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* start of logo */
+
+.logo a{
+  background: white;
+  color: black;
+  display: inline-block;
+  font-family: var(--logo);
+  font-weight: 800;
+  font-size: 24px;
+  padding: 2px .25em 2px 1.5em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* end of logo */
+/* start of nav links */
+
+.nav__links ul, .selector ul {
+  list-style: none;
+}
+
+.nav__links li, .selector li {
+  display: inline;
+  padding: 0 1.5em 0 0;
+}
+
+.nav__links a, .selector a {
+  color: white;
+  font-family: var(--body);
+  font-weight: var(--regular);
+  text-decoration: none;
+}
+
+.selector a::before {
+  border: 2px solid white;
+  border-radius: 50%;
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-right: 4px;
+}
+
+/* end of nav links */
