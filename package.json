@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "dev": "webpack -w --mode development",
+    "start": "webpack --mode production"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kevinvoduy/acronym-ui.git"
