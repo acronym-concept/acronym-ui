@@ -1,8 +1,37 @@
 import React from 'react';
+import './app.css';
 
 const App = () => (
-  <div>
-    hello From react
+  <div className="nav">
+    <div className="logo">
+      <a href="/">
+        acronym
+      </a>
+    </div>
+
+    <div className="nav__links">
+      <ul id="links">
+
+        <li>
+          <a href="/">
+            Login
+          </a>
+        </li>
+
+        <li>
+          <a href="/">
+            Sign up
+          </a>
+        </li>
+
+        <li>
+          <a href="/">
+            Cart (0)
+          </a>
+        </li>
+
+      </ul>
+    </div>
   </div>
 );
 

@@ -1,0 +1,26 @@
+:root {
+  --body-font: 'Tajawal';
+  --logo-font: 'Work Sans';
+  --text-x-large: 40px;
+  --text-large: 32px;
+  --text-medium: 18px;
+  --text-small: 14px;
+  --light: 400;
+  --regular: 500;
+  --bold: 700;
+}
+
+html {
+  font-family: 'Work Sans', sans-serif;
+  background: lightblue;
+}
+
+body {
+ margin: 0;
+ padding: 0;
+ font-family: 'Work Sans', 'Tajawal', sans-serif;
+}
+
+ul, li {
+  margin: 0;
+}
