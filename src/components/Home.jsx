@@ -8,13 +8,14 @@ const settings = {
       infinite: true,
       speed: 500,
       slidesToShow: 1,
-      slidesToScroll: 1,
+      touchMove: true,
 };
 
 const Home = () => (
   <div className="home">
     <Slider {...settings}>
       <ItemMain item={items[0]} />
+      <ItemMain item={items[1]} />
     </Slider>
   </div>
 );

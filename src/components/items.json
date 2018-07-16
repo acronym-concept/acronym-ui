@@ -7,5 +7,14 @@
     "details": "blah blah blah",
     "image": "images/front.jpg",
     "background": "images/1.jpg"
+  },
+  {
+    "id": 1,
+    "name": "d54-s4",
+    "description": "Object Dyded 3L Interops Jacket",
+    "price": 575.00,
+    "details": "blah blah blah",
+    "image": "images/alt01.jpg",
+    "background": "images/2.jpg"
   }
 ]

@@ -2,11 +2,12 @@
   align-items: center;
   display: flex;
   justify-content: space-between;
+  background: rgba(20,20,20,.3);
 }
 
 /* start of logo */
 
-.logo a{
+.logo a {
   background: white;
   color: black;
   display: inline-block;
@@ -23,6 +24,7 @@
 
 .nav__links ul, .selector ul {
   list-style: none;
+  display: visible;
 }
 
 .nav__links li, .selector li {
@@ -48,3 +50,11 @@
 }
 
 /* end of nav links */
+
+@media (max-width: 1080px) {
+
+
+  .selector {
+    display: none;
+  }
+}
