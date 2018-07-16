@@ -7,5 +7,14 @@
     "details": "blah blah blah",
     "image": "images/front.jpg",
     "background": "images/1.jpg"
+  },
+  {
+    "id": 1,
+    "name": "j28-k",
+    "description": "Object Dyded 3L Interops Jacket",
+    "price": 875.00,
+    "details": "blah blah blah",
+    "image": "images/front.jpg",
+    "background": "images/1.jpg"
   }
 ]

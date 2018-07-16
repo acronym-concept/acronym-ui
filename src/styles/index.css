@@ -1,10 +1,10 @@
 :root {
   --body-font: 'Tajawal';
   --logo-font: 'Work Sans';
-  --text-x-large: 40px;
-  --text-large: 32px;
-  --text-medium: 18px;
-  --text-small: 14px;
+  --text-x-large: 12em;
+  --text-large: 2em;
+  --text-medium: 1.5em;
+  --text-small: 1em;
   --light: 400;
   --regular: 500;
   --bold: 700;
@@ -12,7 +12,6 @@
 
 html {
   font-family: 'Work Sans', sans-serif;
-  background: lightblue;
 }
 
 body {

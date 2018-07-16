@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './itemmain.css';
+import '../styles/itemmain.css';
 
 const ItemMain = (props) => {
   const {
@@ -15,7 +15,7 @@ const ItemMain = (props) => {
 
   return (
     <div className="profile__container">
-      <img src={background} alt="" />
+      <img src={background} alt="" id="item__background" />
       <div className="item__profile">
         <div className="item__details">
           <p id="item__header">
@@ -29,6 +29,7 @@ const ItemMain = (props) => {
               Price_
             </p>
             <p>
+              $
               {price}
             </p>
           </div>
