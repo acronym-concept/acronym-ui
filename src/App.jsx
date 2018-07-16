@@ -30,7 +30,6 @@ const App = () => (
 
       <div className="nav__links">
         <ul id="links">
-
           <li>
             <a href="/">
               Login
@@ -39,16 +38,9 @@ const App = () => (
 
           <li>
             <a href="/">
-              Sign up
-            </a>
-          </li>
-
-          <li>
-            <a href="/">
               Cart (0)
             </a>
           </li>
-
         </ul>
       </div>
     </div>
