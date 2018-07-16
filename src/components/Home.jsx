@@ -14,8 +14,11 @@ const settings = {
 const Home = () => (
   <div className="home">
     <Slider {...settings}>
-      <ItemMain item={items[0]} />
-      <ItemMain item={items[1]} />
+      {
+        items.map(item => (
+          <ItemMain item={item} key={item.name} />
+        ))
+      }
     </Slider>
   </div>
 );

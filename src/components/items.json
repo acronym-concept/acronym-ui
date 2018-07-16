@@ -3,17 +3,35 @@
     "id": 1,
     "name": "j28-k",
     "description": "Object Dyded 3L Interops Jacket",
-    "price": 875.00,
-    "details": "blah blah blah",
+    "price": "1,856",
+    "details": "Geometry wars. Compact, scalene, and advanced, J66 is an exercise in articulation and unorthodoxy. Unique detached entry cargo pockets contain three storage locations which can be accessed from multiple positions along a continuous zipper opening.",
     "image": "images/front.jpg",
     "background": "images/1.jpg"
   },
   {
-    "id": 1,
-    "name": "d54-s4",
+    "id": 2,
+    "name": "j66-gtv",
+    "description": "2 Stage Escape Zip CF Enclosure",
+    "price": "1,672",
+    "details": "A jacket that you wear like a biker jacket but that has absolutely nothing to do with biker jackets. Latest iteration convertible collar. Fully taped seams with reverse raw edge seam allowance.",
+    "image": "images/alt01.jpg",
+    "background": "images/2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "j73-ws",
     "description": "Object Dyded 3L Interops Jacket",
-    "price": 575.00,
-    "details": "blah blah blah",
+    "price": "1,481",
+    "details": "Geometry wars. Compact, scalene, and advanced, J66 is an exercise in articulation and unorthodoxy. Unique detached entry cargo pockets contain three storage locations which can be accessed from multiple positions along a continuous zipper opening.",
+    "image": "images/front.jpg",
+    "background": "images/1.jpg"
+  },
+  {
+    "id": 4,
+    "name": "j69-gt",
+    "description": "2 Stage Escape Zip CF Enclosure",
+    "price": "1,537",
+    "details": "A jacket that you wear like a biker jacket but that has absolutely nothing to do with biker jackets. Latest iteration convertible collar. Fully taped seams with reverse raw edge seam allowance.",
     "image": "images/alt01.jpg",
     "background": "images/2.jpg"
   }
