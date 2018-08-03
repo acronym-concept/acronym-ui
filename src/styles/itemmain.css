@@ -7,8 +7,10 @@
 
 #item__background {
   z-index: -1;
-  height: 100vh;
+  height: 100%;
 }
+
+/* start of item profile */
 
 .item__profile {
   align-items: center;
@@ -16,7 +18,7 @@
   display: grid;
   grid-template-columns: 4fr 5fr;
   grid-auto-rows: min-content;
-  max-height: 100vh;
+  max-height: 100%;
   position: absolute;
   right: 0;
 }
@@ -62,6 +64,8 @@
   font-weight: var(--bold);
   padding: 0 1em;
 }
+
+/* end of item profile */
 
 .item__image {
   height: 100%;
